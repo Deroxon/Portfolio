@@ -1,0 +1,103 @@
+body
+{
+    background: rgb(173, 117, 117);
+    color: rgb(51, 44, 44);
+    font-size:22px;
+    font-family: 'Acme', sans-serif;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-align:center;
+}
+h1
+{
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-top:2px;
+    margin-bottom: 0px;
+    transition: all 0.8s ease;
+}
+h2
+{
+    margin:0px;
+    font-size:15px;
+    text-align:center;
+    
+}
+.plansza
+{
+    width:700px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:5px;
+   
+}
+.karta
+{
+    min-width:110px;
+    min-height:110px;
+    width:auto;
+    height:auto;
+    background-image: url("img/suprise.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    margin:5px;
+    border: 3px solid black;
+    border-radius:7px;
+    cursor:pointer;
+    display:inline-block;
+    opacity:0.8;
+    transition: all 1s ease-in-out;
+   
+}
+.karta:hover
+{
+    opacity: 1;
+    border: 3px solid rgb(228, 206, 206);
+}
+.kartaA
+{
+    min-width:110px;
+    min-height:110px;
+    width:auto;
+    height:auto;
+    background-image: url("img/suprise.jpg");
+    background-position: center center;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    margin:5px;
+    border: 3px solid  rgb(228, 206, 206);
+    border-radius:7px;
+    cursor:pointer;
+    display:inline-block;
+    opacity:1;
+    transition: all 0.5s ease-in-out;
+}
+.kartaA:hover
+{
+    opacity: 1;
+    border: 3px solid rgb(255, 255, 255);
+}
+.tury
+{
+    text-align: center;
+    font-size:40px;
+}
+.reload
+{
+    margin-top: 5px;
+    letter-spacing: 2px;
+    border: 2px solid lightpink;
+    border-radius:5px;
+}
+ 
+.reload:hover
+{
+    color: #fcb317;
+    cursor: pointer;
+}

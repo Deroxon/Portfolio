@@ -1,0 +1,45 @@
+body {
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background:gray;
+}
+
+.container {
+    width:95%;
+    left:2%;
+    min-height: 800px;
+    border: 1px solid blue;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: white;
+
+}
+
+canvas {
+    border:3px solid #fff;
+
+}
+
+.punkty {
+    position: absolute;
+    top:20px;
+    z-index:1000;
+    background-color: rgb(97, 92, 92);
+    margin:0;
+    padding:0;
+    
+    
+}
+.tak {
+
+    font-size: 30px;;
+    color:red;
+    display:inline;
+
+}

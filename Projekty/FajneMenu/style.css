@@ -1,0 +1,107 @@
+body
+{
+    background: rgb(253, 253, 253);
+}
+.nav-main
+{
+    position: fixed;
+    top: 0;
+    /* te dwa wyżej sprawiają że menu jest przyklejone jakby */
+    width:100%;
+    height:60px;
+    background-color:white;
+    display:flex;
+    flex-wrap:wrap;
+    z-index: 1000;
+}
+
+.btn-toggle-nav
+{
+    width:62px;
+    height:100%;
+    background-color:#f98f39;
+    background-image: url("img/guzik.png");
+    background-repeat: no-repeat;
+    background-size:60%;
+    background-position:center;
+    cursor:pointer;
+    
+    
+}
+
+.nav-main ul
+{
+    display:flex;
+    flex-wrap:wrap;
+    padding-left:15px;
+}
+.nav-main ul li 
+{
+   list-style:none;
+   line-height:60px;
+   
+}
+.nav-main ul li a
+{
+   display:block;
+   padding:0 10px;
+   height:100%;
+   text-transform: uppercase;
+   text-decoration:none;
+   color:#111;
+   font-family: arial;
+   font-size:16px;
+}
+.btn-toggle-nav:hover
+{
+    opacity:0.5;
+}
+
+.nav-sidebar {
+    position:fixed;
+    left: 0px;
+    bottom: 0px;
+    width:60px;
+    padding: 0 5px;
+    height:calc(100vh - 60px);
+    background-color:#1b1b1b;
+    z-index:1000;
+    transition: all 0.5s ease-in-out;
+    /* efekt przejścia który bierze wszystko potem ile trwa oraz że wolniej na początku i pod koniec jest przejście */
+}
+.nav-sidebar ul {
+    padding-top:15px;
+    overflow:hidden;
+    /* overflow hidden sprawia że to co wychyla się za diva zostaje chowane */
+    visibility: hidden;
+    /* to sprawia że tekst jest całkowicie ukryty */
+}
+
+.nav-sidebar ul li{
+    line-height: 60px;
+    list-style:none;
+    text-align: left;
+    
+}
+
+.nav-sidebar ul li span, .nav-sidebar ul li a {
+
+    display:block;
+    height:60px;
+    padding:0 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: arial;
+    font-size:16px;
+    white-space: nowrap;
+    opacity:0;
+    transition: all 0.5s ease-in-out;
+    
+    color:white;
+}
+.nav-sidebar ul li a:hover {
+
+    background-color: #222;
+}
+
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Daniel Lasek">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    
+   <div id ="kalkulator">
+       <input type="text" id="pole1" value="" placeholder="Wpisz liczbę" onclick="zniknij1()">
+
+       <div style="clear:both;"></div>
+
+       <input type="text" id="pole2" value="" placeholder="Wpisz liczbę" onclick="zniknij2()">
+
+       <div style="clear:both;"></div>
+
+       <button class="oblicz" onclick="oblicz()">Oblicz</button>
+
+
+
+        <select id="operatory">
+            <option value="dodaj">+</option>
+            <option value="minus">-</option>
+            <option value="pomnóż">*</option>
+            <option value="podziel">/</option>
+        </select>
+
+        <div style="clear:both;"></div>
+
+        <div id="alert"></div>
+        <div id="wynik">Wynik:</div>
+        
+   </div>
+
+   <footer>
+        @2019 Copyright Daniel Lasek Web-developer Wszelkie prawa zastrzeżone!
+    </footer>
+   <script
+   src="https://code.jquery.com/jquery-3.4.1.js"
+   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+   crossorigin="anonymous"></script>
+    <script src="javascript.js"></script>
+</body>
+</html>

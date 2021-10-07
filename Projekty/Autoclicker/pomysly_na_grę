@@ -1,0 +1,7 @@
+ZRÓB TAK ABY ŚNIEŻKI JAK OSIĄGNIE SIĘ 10LVL WYSKAKIWAŁ KOMUNIKAT ŻE ŚNIEŻKI ZA KLIKNIĘCIE DAJĄ 10 A NIE 1
+
+Z PRAWEJ STRONY WSTAW MOŻLIWOŚĆ ZMIANY NA  CLICKER, UPGRADE'Y, OPCJE w opcjach ma być ustawione czy to są śnieżki, czy zbierasz Pizze, czy robisz biznes kupując nieruchomości które generują ci pieniądze.
+
+Połącz tego HTML z bazą danych aby wszelkie informacje które się generują zapisywały się wraz z zamknięciem strony aby użytkownik po zamknięciu mógł spokojnie wczytać swoje postępy.
+
+Przycisk "nowa gra" która restartuje wszystko

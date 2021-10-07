@@ -1,0 +1,168 @@
+.menuR {
+    background-image: linear-gradient(to left, rgb(151, 82, 25), rgb(235, 184, 96), rgb(131, 70, 20));
+    color:white;
+    margin-top:0%;
+    border-radius:7px;
+    border-left: 5px double rgb(207, 203, 203);
+    border-right:5px double rgb(207, 203, 203);
+    box-shadow: 5px 10px 20px  rgba(34, 32, 32, 0.7);
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    min-width:1250px;
+    min-height:900px;
+    height:auto;
+    position: relative;
+    animation:przesun;
+    animation-duration: 2s;
+}
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Vollkorn', serif;
+}
+@keyframes przesun{
+    0%{transform:rotate(0deg) }
+    25%{transform:rotate(10deg)}
+    50%{transform:rotate(-10deg)}
+    100%{transform: rotate(0deg);}
+}
+
+
+
+.strzalka {
+    width:80px;
+    line-height:50px;
+    height:90px;
+    text-align:center;
+    position: absolute;
+    padding-top:10px;
+    top:55%;
+    transform:translateY(-50%);
+    transition:all 150ms ease;
+    font-size:100px;
+    color:rgb(243, 240, 240);
+    Background:rgba(214, 185, 52, 0.3);
+    opacity:0.6;
+    z-index:1000;
+}
+.strzalka:hover {
+    opacity:1;
+    cursor:pointer;
+}
+.prawo {
+    left:10px;
+}
+.lewo {
+    right:10px;
+}
+
+.ObejrzyjMenu {
+    color:white;
+    Text-shadow:1px 1px 1px black;
+    margin-top:0px;
+    font-size:45px;
+    text-align:center;
+    font-family: 'Caveat', cursive;
+}
+.ObejrzyjMenu2 {
+    color:white;
+    Text-shadow:1px 1px 1px black;
+    margin-top:20px;
+    font-size:25px;
+    text-align:center;
+    font-family: 'Caveat', cursive;
+}
+.RealM {
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    
+    height:400px;
+    
+}
+.danie {
+    width:20%;
+    min-width:200px;
+    height:200px;
+    position: relative;
+    float:left;
+    margin-left: 45px;
+    background: radial-gradient(white, rgb(233, 228, 228));
+    color:black;
+    transition-property: transform;
+    transition: 2s;
+    margin-top:30px;
+    border-radius:10px;
+}
+.danie:hover {
+    
+    cursor:pointer;
+    border-radius:40px;
+    height:220px;
+    min-width:220px;
+    background: radial-gradient(rgb(255, 255, 255), rgb(75, 73, 73))
+    
+
+}
+
+.dImg {
+    background-image: url("../img/menu/zupy/zupa0.jpg");
+    background-size:100% 100%;
+    border-radius:10px;
+    border:1px solid rgb(104, 101, 101);
+    width:70%;
+    margin-left:auto;
+    margin-right: auto;
+    height:50%;
+    margin-top:10px;
+    transition-property: all;
+    transition:0.5s;
+}
+.dNazwa {
+    font-size:14px;
+    margin-top:-10px;
+    position: relative;
+    margin-left:10%;
+    color:rgb(18, 18, 19);
+    font-weight:600;
+    animation-name:pojaw;
+    animation-duration: 3s;
+    transition-property: all;
+    transition:1.5s;
+    
+    
+}
+.dCena {
+    font-size:12px;
+    margin-top:-15px;
+    margin-left:10%;
+    color:rgb(56, 53, 53);
+    animation-name:pojaw;
+    animation-duration: 2s;
+    transition-property: all;
+    transition:1.5s;
+}
+.dOcena {
+    margin-top:-10px;
+    font-size:14px;
+    Text-align:center;
+    animation-name:pojaw;
+    animation-duration: 1s;
+    transition-property: all;
+    transition:1.5s;
+    
+}
+@keyframes pojaw {
+    0%{opacity:0;}
+    100%{opacity:1;}
+}
+#clock {
+    font-size:20px;
+    color:rgb(60, 60, 149);
+    Text-shadow:1px 1px 1px black;
+    font-weight:300;
+    padding-top:130px;
+    text-align: right;
+    z-index: 1000;
+}

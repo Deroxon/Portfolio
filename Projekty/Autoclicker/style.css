@@ -1,0 +1,148 @@
+body {
+    margin:0;
+    padding:0;
+    
+}
+h2 {
+    font-family: 'Marck Script' ;
+    font-size:40px;
+    Text-align:center;
+    color:rgb(240, 240, 240);
+    text-shadow:1.3px 1.3px black;
+    margin-top:0px;
+   
+
+}
+.Ogol {
+    text-align:center;
+    font-size:30px;
+    font-family: 'Marck Script' ;
+    color:rgb(231, 215, 215);
+    text-shadow:1.5px 1.5px black;
+    margin-bottom:5px;
+    margin-top:2px;
+}
+
+.container {
+    background:url("img/tlofajne.jpg");
+    background-size: 100% 100%;
+    margin-left:auto;
+    margin-right:auto;
+    height: 700px;
+    width:70%;
+    min-width:1000px;
+    position: relative;
+    border:1px solid black;
+    opacity:0.95;
+    
+    
+}
+/* 3 pojemniki */
+#kupno_poczatkowych {
+    width:30%;
+    background:blue;
+    float:left;
+    height:auto;
+    margin-top:10px;
+}
+.pojemnik_animacja {
+    background: url("img/grad.jpg");
+    background-size: 100% 100%;
+    width:40%;
+    float:left;
+    height:610px;
+    cursor:pointer;
+    margin-top:10px;
+    transition: 2s all ease-in-out;
+}
+.pojemnik_animacja:hover {
+    border: 0.3px solid black;
+}
+.pojemnik_zaaw {
+    background:yellow;
+    width:29.94%;
+    float:left;
+    height:auto;
+    margin-top:10px;
+}
+/* Lewa strona gdzie się kupuje rzeczy */
+.zakup img{
+    width:25%;
+    min-width:100px;
+    height:80px;
+    margin-top:5%;
+    margin-left:5%;
+    margin-right:auto;
+    border: 3px double rgb(14, 10, 10);
+    border-radius:5%;
+    float:left;
+}
+.odNowa {
+    background:royalblue;
+    border:2px solid rgb(16, 16, 17);
+    color:rgb(216, 205, 205);
+    text-shadow: 1px 1px black;
+    cursor:pointer;
+}
+.odNowa:hover {
+    color:rgb(255, 255, 255);
+    border:2px solid rgb(250, 253, 250);
+}
+.zakup {
+    display:inline-block;
+    transition: 0.5s all ease-in-out;
+    height:120px;
+    border:1px solid black;
+    width:100%;
+    
+}
+.zakup:hover {
+    
+    cursor:pointer;
+    
+}
+.opis {
+    margin-top:3%;
+    margin-left:10px;
+    text-shadow: 2px 2px black;
+    color:rgb(233, 232, 232);
+    font-size:22px;
+    Text-align:center;
+}
+.cena {
+    margin-left:10px;
+    float:left;
+    text-shadow: 2px 2px black;
+    color:rgb(233, 232, 232);
+    font-size:12px;
+    Text-align:bottom;
+}
+.cenak {
+    margin-left:10px;
+    float:left;
+    text-shadow: 2px 2px black;
+    color:rgb(233, 232, 232);
+    font-size:12px;
+    Text-align:bottom;
+}
+/* Obrazek ze śnieżką */
+.pojemnik_animacja img{
+    width:100%;
+    height:auto;
+}
+.ss {
+    margin-top:0px;
+    margin-bottom:0px;
+    color:rgb(221, 221, 235);
+    text-transform:bold;
+}
+/* ANIMACJA */
+#tloL {
+    position:absolute;
+    float:left;
+    width:100%;
+    height:105%;
+    opacity:1;
+   
+    
+}

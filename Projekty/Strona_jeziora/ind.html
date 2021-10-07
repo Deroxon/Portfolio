@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="timer.js"></script>
+    
+
+
+
+</head>
+
+
+<body>
+
+    <header>
+
+        <nav class="navbar bg-primary navbar-dark navbar-expand-md">
+            <a class="navbar-brand" href="ind.html"><img src="img/photoshop2.png" height="40px" width="30px" class="d-inline-block">
+                    Wodnisko.pl
+            </a>
+
+            <button class="navbar-toggler d-md-none" type="button" data-target="#mainmenu" data-toggle="collapse" aria-controls="mainmenu" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="mainmenu">
+
+
+                <ul class="navbar-nav">
+
+                    <li class="navbar-item">
+                        <a class="nav-link active" href="ind.html">Strona Główna</a>
+                    </li>
+
+                    <li class="navbar-item dropdown">
+                            <a class="nav-link active dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" href="#">Rodzaje ryb w Łowisku</a>
+                        
+                            <div class="dropdown-menu">
+
+                                <a class="dropdown-item" href="Pospolite.html">Ryby Pospolite</a>
+
+                                <a class="dropdown-item" href="Rzadkie.html">Ryby Rzadkie</a>
+
+                                <a class="dropdown-item" href="BardzoRzadkie.html">Ryby Trudne do złowienia</a>
+
+                            </div>
+
+                        </li>
+
+                        
+                    <li class="navbar-item">
+                            <a class="nav-link active" href="lowisko.html">Łowisko</a>
+                        </li>
+
+                    <li class="navbar-item">
+                        <a class="nav-link disabled" href="galeria.html">Galeria</a>
+                    </li>
+
+                        <li class="navbar-item">
+                                <a class="nav-link active" href="cennik.html">Cennik</a>
+                            </li>
+
+                    <li class="navbar-item">
+                            <a class="nav-link active" href="kontakt.html">Kontakt</a>
+                        </li>
+
+                    
+                        
+                        
+
+
+                </ul>
+            </div>
+
+        </nav>
+        <div id="zegar"></div>
+        
+
+        <header>
+
+            <h1> Czy jesteś spragniony przygód z wędkowaniem?<br />
+                 Może chciałbyś zrelaksować się nad wodą w cichej okolicy?<br />
+                <h2><b>Dobrze trafiłeś!</b></h2>
+            </h1>
+
+        <section class="picture">
+
+            <div id="container">
+
+                <div class="obrazki d-inline-block">
+
+                    
+                    <span onclick="ustawslajd(1)" style="cursor:pointer;">1</span>
+                    <span onclick="ustawslajd(2)" style="cursor:pointer;">2</span>
+                    <span onclick="ustawslajd(3)" style="cursor:pointer;">3</span>
+
+
+                    <div id="slider"></div>
+
+                    <h3>Klimatyczna i cicha okolica</h3>
+
+                    <p> Mamy wiele do zaoferowania.<br />
+                        Naszym dotychczas najbardziej chwalonym atutem<br />
+                        przez klienta jest zaciszna okolica<br />
+                        do której goście przyjeżdzają z wielką<br />
+                         ochotą i wychodzą odstresowani.
+                    </p>
+
+                    <div id="obrazek2"><a href="#" ><img src="img/grill/grill1.jpg" width="450px" height="500px" ></a></div>
+                    
+
+                    <h3>Jedzenie i inne dodatki</h3>
+
+
+                    <p> Może spokojna okolica cię niezbyt przekonuje?<br />
+                        A co powiesz na grille w każdą Sobotę i Niedzielę<br />
+                        Teraz pewnie masz w głowie ile to może kosztować?<br />
+                        <b>Odpowiedź jest prosta:<br />
+                        30zł</b><br />
+                        Aby zobaczyć co jest w ofercie grillowej wejdź <button class="łowiskobutton"><a href="cennik.html">Tutaj</button></a> 
+                    </p>
+
+                    <div id="obrazek3"><a href="#" ><img src="img/sprzet/sprzet.jpg" width="450px" height="500px" ></a></div>
+                    
+
+                    <h3>Wypożyczalnia sprzętu</h3>
+
+
+                    <p> 
+                       Nie masz własnego sprzętu?<br />
+                       Nie martw się, my się tym zajmiejmy.<br />
+                       U nas możesz wypożyczyć <br />
+                       <b>Wędki</b>, <b>Łódki</b> lub <b>Namiot</b> oraz <b>wiele innych</b>
+                       <br />
+                       Nie czekaj sprawdź w naszym <b>Cenniku</b>
+
+                    </p>
+
+
+
+                </div>
+
+
+
+            </div>
+        </section>
+
+    
+
+    <section class="socialmedia">
+        <div class="soci">
+
+            <div class="coś1 col-lg-3 col-sm-6 col-xs-none">
+                <a href="https://www.facebook.com" target="_blank" ><i class="icon-facebook-squared"></i></a>
+            </div>
+
+            <div class="coś2 col-lg-3 col-sm-6 col-xs-none">
+                <a href="https://www.youtube.com/" target="_blank"><i class="icon-youtube"></i></a>
+            </div>
+
+            <div class="coś3 col-lg-3 col-sm-6 col-xs-none">
+                <a href="https://www.google.com/" target="_blank"><i class="icon-gplus-circled"></i></a>
+            </div>
+
+            <div class="coś4 col-lg-4 col-sm-6 col-xs-none">
+                <a href="https://twitter.com/?lang=pl" target="_blank"><i class="icon-twitter"></i></a>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <footer>
+        @2019 Copyright Daniel Lasek Web-developer Wszelkie prawa zastrzeżone!
+    </footer>
+        
+
+
+        </header>
+
+
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

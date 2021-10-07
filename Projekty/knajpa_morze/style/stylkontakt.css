@@ -1,0 +1,54 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Vollkorn', serif;
+}
+
+.menuR {
+    background-image: linear-gradient(to left, rgb(200, 189, 179), rgb(250, 250, 250), rgb(197, 190, 184));
+    color:white;
+    margin-top:0%;
+    border-radius:7px;
+    border-left: 5px double rgb(73, 72, 72);
+    border-right:5px double rgb(73, 72, 72);
+    box-shadow: 5px 10px 20px  rgba(34, 32, 32, 0.7);
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    min-width:1250px;
+    min-height:900px;
+    height:auto;
+    position: relative;
+
+}
+#clock {
+    text-align: right;
+    padding-top:120px;
+    font-size:20px;
+    color:rgb(98, 98, 204);
+    font-weight:300;
+    padding-top:100px;
+}
+
+.zakladkaK {
+    text-align:center;
+    color:rgb(39, 127, 185);
+    text-shadow:1px 1px 1px black;
+    font-size:30px;
+}
+.adres {
+    font-size:20px;
+    color:black;
+    font-weight:400;
+    Text-align:center;
+    color:rgb(39, 127, 185);
+    text-shadow:1px 1px 1px black;
+
+}
+#map {
+    height:400px;
+    width:80%;
+    margin-left:150px;
+    position: relative;
+    margin-top:50px;
+}

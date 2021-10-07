@@ -1,0 +1,381 @@
+body
+{
+	margin: 0;
+	background-image: url(img/polana.jpg);
+	color: #efefef;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+	/* Background pattern from Toptal Subtle Patterns */
+}
+h1.logo
+{
+	font-size: 44px;
+	letter-spacing: 5px;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 23px;
+	color: #fff;
+	margin-bottom: 23px;
+}
+#topnav
+{
+	background-color:#3e4042;
+	text-align: center;
+
+}
+.menu
+{
+	padding:10px;
+	list-style-type: none;
+	font-size: 22px;
+	margin: 0;
+	min-height: 40px;
+	line-height:200%;
+
+}
+.menu > li
+{
+	display: inline-block;
+	padding-left:20px;
+	padding-right:20px;
+	border-right: 1.5px dashed #b1c0d8;
+
+}
+.menu > li:first-child 
+{
+	border-left: 1.5px dashed #b1c0d8
+	
+}
+.menu a
+{
+	text-decoration: none;
+	color: #efefef;
+	font-weight: 600;
+}
+.menu a:hover
+{
+	color: #b1c0d8;
+	
+}
+.categories
+{ 
+	width: auto;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+h1.title
+{
+	font-size: 44px;
+	color: #50b7a8;
+	margin-bottom: 10px;
+	font-weight: 700;
+}
+.beast
+{
+	display: inline-block;
+	margin-top: 10px;
+	
+}
+.beast a
+{
+	opacity: 0.9;
+}
+.beast a:hover
+{
+	opacity: 1.0;
+}
+figure
+{
+	margin:8px;
+	padding: 0;
+}
+figcaption
+{
+	margin:8px;
+	padding: 0;
+}
+h1.aktualizacja
+{
+	text-align: center;
+	font-size: 44px;
+	color: #50b7a8;
+	margin-bottom: 10px;
+	font-weight: 700;
+}
+.entries
+{
+	text-align: center;
+	font-size: 24px;
+	width: 950px;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #242625;
+	
+}
+.aktualizacjaimg
+{
+	display: inline-block;
+	margin-left: 30px;
+	width: 150px;
+}
+.aktualizacjaimg img
+{
+	width:130px;
+	height:130px;
+	margin-top: 10px;
+
+}
+.aktualizacjatxt
+{
+	display:inline-block;
+	width:750px;
+	font-size: 20px;
+	margin-bottom: 20px;
+	border-top: 2px dashed gray;
+}
+.contact
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 950px;
+	text-align: center;
+	padding-bottom: 70px;
+	margin-bottom: 50px;
+	color: #50b7a8;
+}
+.contact p
+{
+	margin-bottom:40px;
+	color: white;
+}
+
+.bluebutton
+{
+	background-color: #1e4d99;
+	padding:15px;
+	color: #efefef;
+	font-size:19px;
+	text-decoration: none;
+	border-radius: 5px;
+	min-width:300px;
+}
+.yt
+{
+	text-align: center;
+	width: 250px;
+	height: 155px;
+	background-image: url(dark-grey-terrazzo.png);
+	float: left;
+}
+
+.yt:hover
+{
+	background-color: #c83237;
+}
+
+.fb
+{
+	width: 250px;
+	height: 155px;
+	background-image: url(dark-grey-terrazzo.png);
+	float: left;
+}
+
+.fb:hover
+{
+	background-color: #3557a2;
+}
+
+.gplus
+{
+	width: 250px;
+	height: 155px;
+	background-image: url(dark-grey-terrazzo.png);
+	float: left;
+}
+
+.gplus:hover
+{
+	background-color: #c84222;
+}
+
+.tw
+{
+	width: 250px;
+	height: 155px;
+	background-image: url(dark-grey-terrazzo.png);
+	float: left;
+	
+}
+
+.tw:hover
+{
+	background-color: #2084c2;
+}
+a.sociallink
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	width: 250px;
+	height: 155px;
+}
+.social
+{
+	text-align: center;
+	width:100%;
+
+}
+.socialdivs
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:1000px;
+	
+}
+.info
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	text-align: center;
+	margin-top: 40px;
+	color: #a6b2c4;
+}
+.bestia
+{
+
+	margin-top: 80px;
+	float:left;
+	width:280px;
+	padding:70px;
+
+}
+.bestia figcaption
+{
+	margin-left: 120px;
+	font-weight:700;
+	font-size:30px;
+	color: white;
+}
+.container
+{
+	width:1400px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.tekst
+{
+	color:#ccc9c9;
+	padding: 70px;
+	width: 1050px;
+}
+h1.polanaopis
+{
+	font-size: 35px;
+	letter-spacing: 3px;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+	color: #5eced6;
+	margin-bottom: 23px;
+	margin-top: 80px;
+	
+}
+.tak {
+	width:auto;
+}
+.tak p
+{
+	color:#edf3fc;
+	font-size:23px;
+	margin-top:50px;
+	font-weight:300;
+}
+#logo
+{
+	width:1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#stwór
+{
+	margin-top:200px;
+	margin-bottom:200px;
+	margin-left: 50px;
+	width: auto;
+
+
+
+}
+.entryimg img
+{
+	width: 400px;
+	height: 500px;
+	float:left;
+	margin-top:40px;
+	margin-right:20px;
+	
+}
+.entrytxt
+{
+	
+	width:auto;
+	font-size: 25px;
+	margin-left: 40px;
+	
+}
+.entrytxt h1
+{
+	color:#5eced6;
+	font-size: 30px;
+	
+}
+.lasy
+{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#stwór h1
+{
+	font-size:50px;
+	text-align:center;
+	color:#5eced6;
+}
+#stwór h5
+{
+	text-align: center;
+}
+
+.krainy
+{
+	width:auto;
+	height:100px;
+	margin-top:40px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+	
+}
+.krainy h1
+{
+	text-align:center;
+	font-size:40px;
+	color:#5eced6;
+}
+.wyśrodkuj {
+	width:auto;
+}
+.opiszTo p {
+	width:auto;
+	
+
+}

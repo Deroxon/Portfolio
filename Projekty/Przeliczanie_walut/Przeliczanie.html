@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Daniel Lasek">
+    <title>Document</title>
+    <link rel="stylesheet" href="przeliczanie.css">
+</head>
+<body>
+    
+    <h1>Oblicz potrzebną ci Walutę</h1> 
+
+  <div class="container">
+
+    <h3>Wpisz liczbę</h3>
+    <input type="text" id="wartość1">
+    
+    
+
+    <select id="operator">
+        <option class="opcja" value="PLNEURO">Polskie na Euro</option>
+        <option class="opcja" value="EUROPLN">Euro na Polskie</option>
+
+        <option class="opcja" value="PLNUSD">Polskie na Dolary</option>
+        <option class="opcja" value="USDPLN">Dolary na Polskie</option>
+        
+        <option class="opcja" value="RUBPLN">Ruble na Polskie</option>
+        <option class="opcja" value="PLNRUB">Polskie na Ruble</option>
+
+        <option class="opcja" value="JPYPLN">Jeny na Polskie</option>
+        <option class="opcja" value="PLNJPY">Polskie na Jeny</option>
+
+ 
+    </select>
+
+    <button id="przycisk" onclick="obliczaj()">Oblicz</button>
+
+    <div id="wynik"></div>
+
+</div>
+
+<footer>
+        @2019 Copyright Daniel Lasek Web-developer Wszelkie prawa zastrzeżone!
+    </footer>
+
+    <script src="przeliczanie.js"></script>
+</body>
+</html>

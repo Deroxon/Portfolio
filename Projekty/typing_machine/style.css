@@ -1,0 +1,109 @@
+body {
+    background: url("bg.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.container {
+    width:70%;
+    height:auto;
+    min-height: 600px;
+    background: rgba(15, 8, 8, 0.9);
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:5%;
+    color:rgb(221, 213, 213);
+    text-shadow:2px 1px black;
+    box-shadow: 1px 2px 3px 2px black;
+    border: 5px double black;
+    opacity:0.7;
+}
+header {
+    font-size:45px;
+    font-weight: 600;
+    text-align:center;
+}
+h3 {
+    font-size:30px;
+    text-align:center;
+}
+h4 {
+    text-align:center;
+    font-size:20px;
+    font-weight:100;
+}
+.razem {
+    margin-left:auto;
+    margin-right: auto;
+    width:70%;
+}
+.points {
+    width:40%;
+    font-size:25px;
+    text-align:center;
+    float: left;
+    margin-right: 5%;
+}
+.time {
+    width:50%;
+    font-size:25px;
+    text-align:center;
+    float: left;
+    
+    
+}
+.pTekst {
+    text-align:center;
+    border:3px solid rgb(83, 81, 81);
+    width:65%;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:30px;
+   
+
+}
+.doWpis {
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+.wpisz {
+    width:30%;
+    height:40px;
+    font-size:20px;
+    text-align:center;
+}
+.stabilizuj {
+    
+    text-align: center;
+    margin-right:10px;
+    margin-bottom: 0px;
+    margin-top:30px;
+}
+.poziomT {
+    width:100px;
+    height:40px;
+    font-size:25px;
+    
+}
+.start {
+    font-size:30px;
+    height:45px;
+    cursor:pointer;
+}
+@media screen and (max-width: 1100px) {
+    .pTekst {
+        width:85%;
+        font-size:20px;
+    }
+    .wpisz {
+        font-size: 15px;
+        width:70%;
+    }
+    .container {
+        width:85%;
+    }
+}

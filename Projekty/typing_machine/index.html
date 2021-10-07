@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Machine</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap&subset=latin-ext" rel="stylesheet">
+  
+
+</head>
+<body>
+
+
+    <div class= "container">
+        <header>Witaj w <i>Typing Machine</i></header>
+
+        <main><h3>W tej grze musisz wpisać jak najszybciej wyświetlane słowa. Poniżej możesz ustawić poziom trudności.<br /> Przegrywasz jeśli skończy ci się czas! 
+        </h3>
+
+        <h4>Aby zacząć ustaw poziom Trudności oraz naciśnij start!</h4>
+        <div class="stabilizuj">
+            
+            <select class="poziomT">
+                <option value='nic'></option>
+                <option value='latwy'>Łatwy</option>
+                <option value='sredni'>Średni</option>
+                <option value="trudny">Trudny</option>
+            </select>
+            <button class="start" onclick="obiekt.startuj()">Start</button>
+        </div>
+        
+    
+        </main>
+
+        <div class="razem">
+        <p class="points">Punkty: 0</p> <p class="time">Czas 7s</p>
+        </div>
+        <div style="clear:both"></div>
+
+        <h2 class="pTekst">konstantynopolitańczykowianeczka</h2>
+
+        <div class="doWpis">
+            <input type="text" class="wpisz">
+        </div>
+        
+
+        
+
+        
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

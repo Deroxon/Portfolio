@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Daniel Lasek">
+    <title>Autoclicker</title>
+    <link href="https://fonts.googleapis.com/css?family=Marck+Script&display=swap&subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    
+</head>
+<body>
+
+
+    <canvas id="tloL"></canvas>
+  
+    <div class="container">
+        
+
+        <button class="odNowa" onclick = "restartGry()">Restaruj grę</button>
+        <button class="odNowa" onclick="upgrade()">Ulepszenia</button>
+        <button class="odNowa" onclick="strona()">Strona główna</button>
+        <h2>Zagraj w Śnieżkowego Clickera</h2>
+        <h3 class="Ogol">Śnieżki: 0</h3>
+        <h4 class="ss">Aktualnie: 0 śnieżek na sekundę</h4>
+        
+        
+
+
+
+        <div id="kupno_poczatkowych">
+            
+            <div class="zakup" id="s1" value="k1" onclick="AutoSnow(1)">
+                <img src="img/minib.jpg">
+                <div class="opis">Mały Bałwan<br /></div>
+                <div class="cena" id="c1" value="mb">
+                    Poziom: 0 <br />
+                    Cena: 20 śnieżek<br />
+                Śnieżki na sekundę: +2<br />
+                Aktualnie na sekundę: 0
+                </div>
+        </div>
+
+        <div class="zakup" id="s2" value="k1"  onclick="AutoSnow(2)">
+            <img src="img/sredb.jpg">
+            <div class="opis">Średni Bałwan<br /></div>
+            <div class="cena" id="c2" value="sb">
+                Poziom: 0 <br />
+                Cena: 40 śnieżek<br />
+            Śnieżki na sekundę: +5<br />
+            Aktualnie na sekundę: 0
+            </div>
+            
+        </div>
+
+        <div class="zakup" id="s3" value="k1"  onclick="AutoSnow(3)">
+            <img src="img/duzyb.jpg">
+            <div class="opis">Duży Bałwan<br /></div>
+            <div class="cena" id="c3" value="db">
+                Poziom: 0 <br />
+                Cena: 120 śnieżek<br />
+            Śnieżki na sekundę: +12<br />
+            Aktualnie na sekundę: 0
+            </div>
+            
+        </div>
+
+        <div class="zakup" id="s4" value="k1"  onclick="AutoSnow(4)">
+            <img src="img/sredb.jpg">
+            <div class="opis">Rycerz Bałwan<br /></div>
+            <div class="cena" id="c4" value="rb">
+                Poziom: 0 <br />
+                Cena: 250 śnieżek<br />
+            Śnieżki na sekundę: +30<br />
+            Aktualnie na sekundę: 0
+            </div>
+            
+        </div>
+
+
+        <div class="zakup" id="s5" value="k1" onclick="zwieksz_poziom()">
+            <img src="img/sniezup.jpg">
+            <div class="opis">Śnieżka<br /> </div>
+            <div class="cenak" id="c3" value="sb">
+                Poziom: 0 <br />
+                Cena: 50 śnieżek<br />
+            Aktualnie za kliknięcie: 1
+            
+            </div>
+            
+        </div>
+
+        </div>
+
+        <div class="pojemnik_animacja" >
+            <img class="sniezz" src="img/sniez.jpg" onclick='kliknij(1)'>
+        </div>
+        <div class="pojemnik_zaaw">
+            
+            
+            <div class="zakup" id="s6" value="k1"  onclick="AutoSnow(5)">
+                <img src="img/wsciekb.jpg">
+                <div class="opis">Wściekły Bałwan<br /></div>
+                <div class="cena" id="c5" value="wb">
+                    Poziom: 0 <br />
+                    Cena: 1000 śnieżek<br />
+                Śnieżki na sekundę: +300<br />
+                Aktualnie na sekundę: 0
+                </div>
+                
+            </div>
+
+
+            <div class="zakup" id="s7" value="k1"  onclick="AutoSnow(6)">
+                <img src="img/scaryb.jpg">
+                <div class="opis">Straszny Bałwan<br /></div>
+                <div class="cena" id="c6" value="stb">
+                    Poziom: 0 <br />
+                    Cena: 4000 śnieżek<br />
+                Śnieżki na sekundę: +450<br />
+                Aktualnie na sekundę: 0
+                </div>
+                
+            </div>
+
+            <div class="zakup" id="s8" value="k1"  onclick="AutoSnow(7)">
+                <img src="img/armab.jpg">
+                <div class="opis">Armatka Śnieżna<br /></div>
+                <div class="cena" id="c7" value="ab">
+                    Poziom: 0 <br />
+                    Cena: 15000 śnieżek<br />
+                Śnieżki na sekundę: +1200<br />
+                Aktualnie na sekundę: 0
+                </div>
+                
+            </div>
+
+
+            <div class="zakup" id="s9" value="k1"  onclick="AutoSnow(8)">
+                <img src="img/snowb.jpg">
+                <div class="opis">Fabryka śnieżek<br /></div>
+                <div class="cena" id="c8" value="fb">
+                    Poziom: 0 <br />
+                    Cena: 60000 śnieżek<br />
+                Śnieżki na sekundę: +3000<br />
+                Aktualnie na sekundę: 0
+                </div>
+                
+            </div>
+
+
+            <div class="zakup" id="s10" value="k1"  onclick="AutoSnow(9)">
+                <img class="olaf" src="img/whatb.jpg">
+                <div class="opis">Zagadkowy Bałwan<br /></div>
+                <div class="cena" id="c9" value="ob">
+                    Poziom: 0 <br />
+                    Cena: 200000 śnieżek<br />
+                Śnieżki na sekundę: +15000<br />
+                Aktualnie na sekundę: 0
+                </div>
+                
+            </div>
+
+
+        </div>
+        <div style="clear:both;"></div>
+
+        
+            
+    
+     
+     
+     </div>
+
+   
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    <script src="script.js"></script>
+    <script src="snieg.js"></script>
+    <script src="animacje.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,441 @@
+body
+{
+	margin: 0;
+	background-image: url(dark-grey-terrazzo.png);
+	color: #efefef;
+    font-family: 'EB Garamond', serif;
+	font-size: 24px;
+	text-align:center;
+	/* Background pattern from Toptal Subtle Patterns */
+}
+h1.logo
+{
+	font-size: 44px;
+	letter-spacing: 5px;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 23px;
+	color: #fff;
+	margin-bottom: 23px;
+}
+#topnav
+{
+	background-color:#3e4042;
+	text-align: center;
+
+}
+.menu
+{
+	padding:10px;
+	list-style-type: none;
+	font-size: 22px;
+	margin: 0;
+	min-height: 40px;
+	line-height:150%;
+	margin-bottom:20px;
+
+}
+.menu > li
+{
+	display: inline-block;
+	padding-left:20px;
+	padding-right:20px;
+	border-right: 1.5px dashed #b1c0d8;
+
+}
+.menu > li:first-child 
+{
+	border-left: 1.5px dashed #b1c0d8
+	
+}
+.menu a
+{
+	text-decoration: none;
+	color: #efefef;
+	font-weight: 600;
+}
+.menu a:hover
+{
+	color: #b1c0d8;
+	
+}
+.categories
+{ 
+	
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+h1.title
+{
+	font-size: 44px;
+	color: #50b7a8;
+	margin-bottom: 10px;
+	font-weight: 700;
+}
+.beast
+{
+	
+	margin-top: 10px;
+
+	
+}
+.beast img {
+	width:250px;
+	height:250px;
+	
+
+}
+.beast a
+{
+	opacity: 0.8;
+}
+.beast a:hover
+{
+	opacity: 1.0;
+}
+figure
+{
+	margin:8px;
+	padding: 0;
+}
+figcaption
+{
+	margin:8px;
+	padding: 0;
+}
+h1.aktualizacja
+{
+	text-align: center;
+	font-size: 44px;
+	color: #50b7a8;
+	margin-bottom: 10px;
+	font-weight: 700;
+	
+}
+
+.entries
+{
+	text-align: center;
+	font-size: 24px;
+	width: auto;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #242625;
+	
+}
+.aktualiza {
+	width:auto;
+	
+}
+.aktualizacjaimg
+{
+	
+	margin-left: 30px;
+	width: auto;
+	float:left;
+}
+.aktualizacjaimg img
+{
+	width:150px;
+	height:150px;
+	margin-top: 10px;
+	margin-bottom:10px;
+
+}
+.aktualizacjatxt
+{
+	display:inline-block;
+	width:auto;
+	font-size: 20px;
+	margin-bottom: 20px;
+	border-top: 2px dashed gray;
+}
+.contact
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	text-align: center;
+	padding-bottom: 70px;
+	margin-bottom: 50px;
+	color: #50b7a8;
+}
+.contact p
+{
+	margin-bottom:40px;
+	color: white;
+}
+
+.bluebutton
+{
+	background-color: #1e4d99;
+	padding:15px;
+	color: #efefef;
+	font-size:19px;
+	text-decoration: none;
+	border-radius: 5px;
+	min-width:300px;
+}
+.yt
+{
+	text-align: center;
+	width: 250px;
+	height: 155px;
+	float: left;
+	
+}
+
+.yt:hover
+{
+	background-color: #c83237;
+}
+
+.fb
+{
+	width: 250px;
+	height: 155px;
+	float: left;
+}
+
+.fb:hover
+{
+	background-color: #3557a2;
+}
+
+.gplus
+{
+	width: 250px;
+	height: 155px;
+	float: left;
+}
+
+.gplus:hover
+{
+	background-color: #c84222;
+}
+
+.tw
+{
+	width: 250px;
+	height: 155px;
+	float: left;
+	
+}
+
+.tw:hover
+{
+	background-color: #2084c2;
+}
+a.sociallink
+{
+	color: #ffffff;
+	text-decoration: none;
+	
+	width: 250px;
+	height: 155px;
+}
+.social
+{
+	text-align: center;
+	
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+.info
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	text-align: center;
+	margin-top: 40px;
+	color: #a6b2c4;
+}
+.bestia img
+{
+
+	margin-top: 80px;
+	float:left;
+	width:400px;
+	height: 400px;
+
+	padding:40px;
+
+}
+
+
+.tekst
+{
+	color:#ccc9c9;
+	padding: 70px;
+	width: auto;
+}
+.teskt img {
+	width: 800px;
+	
+}
+.polanaopis
+{
+	font-size: 35px;
+	letter-spacing: 5px;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 23px;
+	color: #3a45c1;
+	margin-bottom: 23px;
+	margin-top: 80px;
+	
+}
+.title {
+	text-align:center;
+}
+header p {
+	text-align:center;
+}
+.oręż {
+	display:inline-block;
+}
+.zdjęcie {
+	float:left;
+	margin-bottom:30px;
+	margin-top:30px;
+	margin-right:10px;
+}
+.zdjęcie img {
+	width:500px;
+	height:400px;
+}
+.tekstowo {
+	margin-top:30px;
+	font-size:22px;
+	font-weight:300;
+
+}
+.tekstowo h6 {
+	font-size:26px;
+	text-align:center;
+	font-weight:600;
+	color: rgb(233, 150, 150);
+}
+.smok {
+	float:left;
+}
+.tekstSmok {
+	font-size:25px;
+	font-weight:200;
+}
+.galeria {
+	margin-top:100px;
+	margin-bottom: 80px;
+}
+.smok img {
+	width:700px;
+	height:500px;
+}
+.smok figcaption {
+	text-align:center;
+	font-weight:700;
+}
+h1 {
+	font-size:64px;
+	font-weight:400;
+	text-align:center;
+	letter-spacing: 3px;
+	margin-top:20px;
+	margin-bottom:0px;
+	color:rgb(13, 199, 174);
+}
+.jbb p {
+	text-align: center;
+	margin-top:5px;
+	margin-bottom:25px;
+	letter-spacing:2px;
+	font-weight:100;
+	color:rgb(129, 255, 129);
+}
+.board {
+	width:auto;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+
+}
+
+.karta {
+	
+	
+	min-width:100px;
+	min-height:100px;
+	display:inline-block;
+	margin: 3px;
+	background-image:url("img/karta.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	border: 3px solid rgb(44, 7, 44);
+	border-radius:4px;
+	cursor:pointer;
+	filter:brightness(70%);
+	transition: all .3s ease-in-out;
+}
+.karta:hover {
+	border: 3px solid rgb(235, 235, 44);
+	filter:brightness(100%);
+}
+.kartaA {
+	
+	
+	min-width:100px;
+	min-height:100px;
+	display:inline-block;
+	margin: 3px;
+	background-image:url("img/karta.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	border: 3px solid rgb(235, 235, 44);
+	border-radius:4px;
+	cursor: default;
+	filter:brightness(100%);
+	transition: all .3s ease-in-out;
+}
+.wynik {
+	margin-top:10px;
+	letter-spacing:2px;
+}
+.h7 {
+	font-size:40px;
+	font-weight:300;
+	color:rgb(89, 235, 240);
+	background-image: url(dark-grey-terrazzo.png);
+	border: 2px solid rgb(241, 219, 219);
+	border-radius:15px;
+	margin-bottom:100px;
+	margin-top:50px;
+	
+}
+.h7:hover {
+
+	color:rgb(59, 240, 128);
+	cursor:pointer;
+	border-radius:15px;
+	border: 2px solid rgb(59, 240, 128);
+}
+.wygrana{
+	font-size:40px;
+	font-weight:700;
+	color: rgb(89, 235, 240);
+}
+.autor h1 {
+	font-size:55px;
+	margin-bottom:50px;
+}
+.autor {
+	text-align:center;
+
+}
+
+

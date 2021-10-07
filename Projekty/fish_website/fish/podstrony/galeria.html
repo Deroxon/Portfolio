@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Galeria</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+    <link href="../css/fontello.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="style_podstron.css">
+    <link rel="stylesheet" href="../style.css">
+    
+</head>
+<body>
+        <nav class="navbar bg-info  navbar-expand-md">
+                <a class="navbar-brand" href="../index.html"><img src="../img/logo.png" height="40px" width="40px" class="d-inline-block">
+                        Jezioran.pl
+                </a>
+        
+                <button class="navbar-toggler navbar-dark d-md-none" type="button" data-target="#mainmenu" data-toggle="collapse" aria-controls="mainmenu" aria-expanded="false">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="mainmenu">
+        
+        
+                    <ul class="navbar-nav">
+        
+                        <li class="navbar-item">
+                            <a class="nav-link active" href="../index.html">Strona Główna</a>
+                        </li>
+        
+                        <li class="navbar-item">
+                                <a class="nav-link active "  href="historia.html">Historia Jeziora</a>
+                        </li>
+                               
+        
+                            
+                        <li class="navbar-item">
+                                <a class="nav-link active" href="cennik.html">Cennik</a>
+                            </li>
+        
+                        <li class="navbar-item">
+                            <a class="nav-link active" href="galeria.html">Galeria</a>
+                        </li>
+        
+                            <li class="navbar-item">
+                                    <a class="nav-link active" href="kontakt.html">Kontakt</a>
+                                </li>
+        
+                        
+        
+                        
+                            
+                            
+        
+        
+                    </ul>
+                </div>
+        
+            </nav>
+
+            <main>
+                <div class="container">
+                    <div class="row">
+                        
+                        <div class="gallery">
+                                <h1 class="Gh1">Najpierw wybierz kategorie aby zobaczyć daną galerię</h1>
+                            <div class="categories">
+                                
+                                <div class="Gjedzenie Gwspol" id="k1" value="jesc" ><p class="Gtekst"> Jedzenie</p></div>
+                                
+                                <div class="Gjezioro Gwspol" id="k2" value="jezioro" ><p class="Gtekst">Jezioro</p></div>
+                                
+                                <div class="Gryby Gwspol" id="k3" value="ryby" ><p class="Gtekst">Ryby</p></div>
+                                
+                                <div class="Gimprezy Gwspol" id="k4" value="imprezy" ><p class="Gtekst">Imprezy</p></div>
+                            </div>
+
+
+                            
+                        </div>
+                   
+                    </div>
+                </div>
+
+                <div class="image-slider">
+                        
+                    <div class="image-container" id="img-con">
+                            <h1 class="tekscik"></h1>
+                        </div>
+                    
+                
+               
+                    <div class="btn-left" id="prev" onclick="zmienTyl()" >◄</div>
+                    <div class="btn-right" id="next" onclick="zmienPrzod()">►</div>
+
+                </div>
+                
+                
+                
+                
+
+            </main>
+
+
+
+            <footer>
+                    @2019 Copyright Daniel Lasek Web-developer. Wszelkie prawa zastrzeżone!
+            </footer>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <script src="../script.js"></script>
+</body>
+</html>

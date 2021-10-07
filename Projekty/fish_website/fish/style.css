@@ -1,0 +1,336 @@
+body {
+    background-image:url("img/tlo2.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+    font-family:arial;
+}
+/*nawigacja */
+.navbar {
+    position:fixed;
+    width:100%;
+    z-index:100;
+    top:0;
+}
+
+.navbar a{
+    color:rgb(241, 235, 235);
+    font-size:18px;
+    font-weight:500;
+}
+
+nav a .navbar-brand {
+ 
+    font-size:30px;
+}
+nav ul{
+   text-align: center; 
+}
+nav a:hover {
+    color:rgb(187, 187, 154);
+
+}
+
+
+.wstep .obrazek_wstep h1 {
+    text-align:center;
+    font-size:25px;
+    border: 1px gray solid;
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:110px;
+    position: absolute;
+    bottom:auto;
+    top:auto;
+    right: 0;
+    left:0;
+    background: rgba(0,0,0,.4);
+    z-index:3;
+    color:rgb(243, 240, 240);
+    
+}
+.obrazek_wstep {
+    z-index:0;
+    margin-top:0px;
+    height:600px;
+    width:100%;
+    text-align:center;
+    background-image: url("img/jezioro2.jpg");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+
+/* Dolne obrazki */
+.obrazek {
+    float:left;
+    height:auto;
+    min-height:550px;
+    width:320px;
+    margin-left:30px;
+    text-align:center;
+    font-size:17px;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius:5px;
+    margin-top:0px;
+    margin-bottom:10px;
+    font-weight: 550;
+    color:rgb(16, 46, 58);
+    opacity:0.9;
+    position: relative;
+    
+    
+}
+
+.obrazek img {
+    margin-top:20px;
+    width:300px;
+    min-height:300px;
+}
+
+.obrazek:hover {
+    opacity:1;
+    
+}
+.obrazek figcaption {
+    text-align:center;
+    position: relative;
+    margin-left:5px;
+    margin-right:5px;
+    word-wrap: break-word;
+}
+.head {
+    margin-top:30px;
+    margin-left:12%;
+}
+.podtekst {
+    font-size:12px;
+    text-align:left;
+    margin-left:20px;
+    top:0px;
+    position: relative;
+    color: rgb(60, 156, 168);
+}
+
+
+.Aktu {
+    color:rgb(100, 177, 187);
+    text-shadow:1px 1px 1px rgb(37, 36, 36);
+    text-align:center;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.wiecej {
+    text-align:right;
+    word-wrap: break-word;
+    position: flex;
+    width:100%;
+    margin-top:20px;
+    right:10px;
+    text-shadow: 0.5px 0.5px 0.5px  rgb(221, 207, 207);
+}
+.wiecej a:hover {
+    text-decoration: none;
+    color:rgb(233, 177, 72);
+}
+
+/* Brązowe tło*/
+.wydarzenie {
+    margin-top:100px;
+    width:100%;
+    height:470px;
+    background-image: url("img/background.png");
+    background-repeat: no-repeat;
+    text-align:center;
+    
+}
+.action img {
+    background-repeat: no-repeat;
+    background-size:100%;
+    width:450px;
+    height:250px;
+    margin-left:auto;
+    margin-right:auto;
+    position: relative;
+    top:20px;
+    
+}
+h3 {
+    margin-top:25px;
+    font-size:25px;
+    color:rgb(230, 222, 222);
+    position: relative;
+    top:0px;
+    bottom:20px;
+}
+h3:hover {
+    color:rgb(144, 144, 209);
+    text-decoration:none;
+  
+}
+h4 {
+    color:white;
+}
+.wydarz:hover {
+    text-decoration: none;
+}
+
+
+/* oferty */
+
+.oferty
+{
+    width:100%;
+    margin-top:100px;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+
+ /* obrazki z ofertami */
+.oferta1 {
+    
+    float:left;
+    background-image: url("img/cennik.jpg");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    margin-left:5px;
+    min-height:300px;
+    word-wrap: break-word;
+    opacity: 0.8;
+    
+    
+}
+.oferta1:hover {
+    opacity:1;
+    border: 1px solid white;
+    border-radius:10px;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transition:0.5s ease-in-out;
+    
+    
+}
+.oferta1 h4 {
+    color:rgb(251, 248, 248);
+    font-size:4vmin;
+    text-shadow: 1px 1px 1px black;
+    text-align:center;
+    margin-top:20%;
+    Background: rgba(0,0,0,.5);
+    border-radius:15px;
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+
+/* obrazek2 */
+
+.oferta2 {
+   
+    float:left;
+    background-image: url("img/fishing.jpg");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    margin-left:5px;
+    min-height:300px;
+    word-wrap: break-word;
+    opacity: 0.8;
+    
+}
+.oferta2:hover {
+    opacity:1;
+    border: 1px solid white;
+    border-radius:10px;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transition:0.5s ease-in-out;
+    
+    
+}
+.oferta2 h4 {
+    color:rgb(251, 248, 248);
+    font-size:4vmin;
+    text-shadow: 1px 1px 1px black;
+    text-align:center;
+    margin-top:20%;
+    Background: rgba(0,0,0,.5);
+    border-radius:15px;
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+
+
+
+/* obrazek3 */
+
+.oferta3 {
+    
+    float:left;
+    background-image: url("img/party.jpg");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    margin-left:5px;
+    min-height:300px;
+    word-wrap: break-word;
+    opacity: 0.8;
+    
+}
+.oferta3:hover {
+    opacity:1;
+    border: 1px solid white;
+    border-radius:10px;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transition:0.5s ease-in-out;
+    
+    
+}
+.oferta3 h4 {
+    color:rgb(251, 248, 248);
+    font-size:4vmin;
+    text-shadow: 1px 1px 1px black;
+    text-align:center;
+    margin-top:20%;
+    Background: rgba(0,0,0,.5);
+    border-radius:15px;
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+
+.odstep {
+    margin-left:30px;
+    margin-top:30px;
+    width:350px;
+}
+footer {
+    
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        text-align: center;
+        margin-top: 40px;
+        color: white;
+        Background: rgba(14, 10, 10, 0.5);
+        width:100%;
+    
+}
+@media screen and (max-width: 1211px) {
+    div.obrazek {
+       
+        width:420px;
+        margin-left:0px;
+    }
+}
+
+
+

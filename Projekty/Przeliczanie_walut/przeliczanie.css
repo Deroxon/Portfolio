@@ -1,0 +1,54 @@
+
+
+
+
+
+.container {
+  width:500px;
+  height: 300px;
+  margin-left:auto;
+  margin-right:auto;
+  border: 3px solid gray;
+  border-radius:15%;
+  font-size:20px;  
+}
+#wartość1 {
+    margin-left: 10%;
+    margin-top:3%;
+    text-align:center;
+    width:40%;
+    height:10%;
+
+}
+footer
+{
+    text-align: center;
+    color:white;
+    font-size:13px;
+    margin-top:80px;
+    
+}
+#operator {
+   
+    width:25%;
+    height:10%;
+}
+h1 {
+    text-align:center;
+}
+h3
+{
+    margin-left:17%;
+    margin-bottom:0px;
+}
+#przycisk {
+ width:80px;
+ height:10%;
+ cursor:pointer;
+
+}
+#wynik {
+    text-align:center;
+    font-size: 30px;
+    margin-top:5%;
+}

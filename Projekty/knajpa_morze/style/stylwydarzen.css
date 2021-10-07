@@ -1,0 +1,173 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Vollkorn', serif;
+}
+
+.events {
+    width:80%;
+    min-height:800px;
+    border:1px solid rgb(144, 134, 134);
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
+    box-shadow:1px 10px 20px gray;
+    transition-property: all;
+    transition-duration: 1s;
+    border-radius:5px;
+    position: relative;
+    margin-bottom:25px
+}
+
+.events a {
+    color:rgb(58, 55, 55);
+    text-decoration: none;
+}
+#clock {
+    font-size:20px;
+    color:rgb(98, 98, 204);
+    font-weight:300;
+    padding-top:130px;
+    text-align: right;
+}
+.aktualizacje {
+    color:rgb(68, 183, 221);
+    text-shadow: 1px 1px 1px black;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.event {
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    height:200px;
+    border:0.5px solid rgba(71, 70, 70, 0.3);
+    border-radius:4px;
+    margin-top:30px;
+}
+.event:hover {
+    background:rgb(172, 170, 170);
+    cursor:pointer;
+}
+.eventImg {
+    width:25%;
+    height:80%;
+    float:left;
+    
+    background-size:100% 100%;
+    background-position: center;
+    margin-top:20px;
+    margin-left:20px;
+    border-radius:5px;
+    box-shadow:1px 5px 10px black;
+
+}
+.i0{
+    background-image: url("../img/menu/zupy/pizza3.jpg");
+}
+.i1{
+    background-image: url("../img/menu/zupy/zestaw7.jpg");
+}
+.i2{
+    background-image: url("../img/r3.jpg");
+}
+.i3{
+    background-image: url("../img/new.jpg");
+}
+.i4{
+    background-image: url("../img/christmas.jpg");
+}
+.p0{
+    animation: load0;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+@keyframes load0 {
+    0%{left:-2000px;}
+    100%{left:0px;}
+}
+.p1{
+    animation: load1;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+@keyframes load1 {
+    0%{left:-2000px;}
+    100%{left:0px;}
+}
+.p2{
+    animation: load2;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+@keyframes load2 {
+    0%{left:-2000px;}
+    100%{left:0px;}
+}
+.p3{
+    animation: load3;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+@keyframes load3 {
+    0%{left:-2000px;}
+    100%{left:0px;}
+}
+.p4{
+    animation: load4;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+@keyframes load4 {
+    0%{left:-2000px;}
+    100%{left:0px;}
+}
+
+
+.eventH1 {
+    float:left;
+    color:black;
+    width:70%;
+    text-align:left;
+    margin-left:20px;
+    margin-top:20px;
+    font-size:20px;
+    color:rgb(7, 7, 7);
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    position: relative;
+
+}
+.eventDate {
+    float:left;
+    color:black;
+    width:70%;
+    text-align:left;
+    margin-left:20px;
+    margin-top:0px;
+    font-size:10px;
+    color:rgb(162, 162, 170);
+    font-weight: 600;
+    letter-spacing: 1px;
+    position: relative;
+}
+.eventOpis {
+    float:left;
+    color:black;
+    width:70%;
+    text-align:left;
+    margin-left:20px;
+    margin-top:20px;
+    font-size:14px;
+    color:rgb(58, 55, 55);
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    position: relative;
+}

@@ -1,0 +1,4 @@
+1.Napisz wiêcej us³ug i zrób bordera tylko na tekst
+2.Z edytuj historiê firmy tak ¿eby obrazki mieœci³y
+siê w wersji mobilnej.
+3.Wykonaj podstrony dla materia³ów pojedyñczych

@@ -1,0 +1,543 @@
+body {
+    background:rgb(255, 255, 255);
+    font-family: 'Vollkorn', serif;
+    margin:0;
+    padding:0;
+}
+
+/*kontener */
+.container {
+    background-color:rgba(226, 220, 220, 0.5);
+    color:white;
+    margin-top:0%;
+    border-radius:7px;
+    min-width:1250px;
+    border-left: 4px double gray;
+    border-right:4px double gray;
+    box-shadow: 5px 10px 20px  rgba(34, 32, 32, 0.7);
+    margin-top:-5%;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+/*zegar */
+
+#clock {
+    font-size:20px;
+    color:rgb(98, 98, 204);
+    font-weight:300;
+    padding-top:130px;
+    text-align: right;
+}
+
+
+
+/* nazwa strony i nawigacja*/
+header {
+    
+    float:left;
+    margin-top:-10px;
+    margin-right:10%;
+    color:rgb(93, 177, 226);
+    text-shadow:0.5px 2px 1px rgb(49, 48, 48);
+    
+   
+}
+header h1 {
+    font-weight: 650;
+    font-size:35px;
+    font-family: 'Caveat', cursive;
+    
+}
+nav {
+   position:fixed;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+   flex-wrap:wrap;
+   width:100%;
+   min-width:1000px;
+   background-image: linear-gradient(to right, rgb(114, 114, 173), rgb(158, 147, 147));
+   height:60px; 
+   
+  
+}
+nav:hover {
+    animation:powieksz;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    
+}
+@keyframes powieksz {
+    0% {height:60px;}
+    100%{height:100px; }
+    
+}
+
+
+
+
+
+.navMain ul {
+    
+    display:flex;
+    justify-content: right;
+    list-style: none;
+    margin-right:15%;
+}
+.navMain li {
+    margin-top:10px;
+    font-size:30px;
+    padding:10px;
+    float:left;
+    list-style-type: none;
+    text-shadow:0px 0px 1px rgb(12, 14, 14);
+    color:rgb(124, 216, 223);
+    font-family: 'Caveat', cursive;
+}
+.navMain li:hover {
+    color:rgb(19, 25, 39);
+}
+
+/*pole z opisem */
+main {
+    
+    margin-top:5%;
+    text-align:center;
+}
+h2 {
+    margin-top:60px;
+    font-family: 'Charm', cursive;
+}
+
+
+
+/*pole ze slajdem */
+.sliderI {
+    border: 1px solid white;
+    margin-top:250px;
+    border-radius:15px;
+    background: linear-gradient(to right, rgb(80, 139, 207), rgb(27, 54, 105), rgb(80, 139, 207));
+    color:rgb(188, 188, 236);
+    text-shadow: 2px 2px 3px black;;
+    box-shadow: 5px 10px 20px  rgba(34, 32, 32, 0.7);
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    
+    
+}
+
+.tekst{
+    float:left;
+    width:45%;
+    height: 100%;
+
+}
+.naglowek {
+    font-size:40px;
+    color:rgb(131, 209, 255);
+    height:20%;
+}
+.krotkiO {
+    font-size:20px;
+    font-weight:400;
+    margin-left:5%;
+    margin-right:5%;
+    height:160px;
+    position:relative;
+}
+
+.dotSlajd {
+    font-size:30px;
+    float:left;
+    color:rgb(46, 45, 45);
+    margin-left:20%;
+    transition: 0.5s all ease-in-out;
+}
+.dotSlajd:hover {
+    color:white;
+    cursor:pointer
+}
+.sliderI ul  {
+    margin-left:auto;
+    margin-right:auto;
+    width:40%;
+    position: static;
+    height:10%;
+
+    
+}
+
+.slajd {
+    min-width:400px;
+    width:55%;
+    height:300px;
+    
+    margin-left:auto;
+    border-radius:15px;
+    
+}
+.slajd img {
+    min-width:500px;
+    height:300px;
+    width:100%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/*h2 */
+h2 {
+    margin-top:8%;
+    color:rgb(93, 177, 226);
+    text-shadow: 1px 1px 2px black;
+    font-family: 'Charm', cursive;
+}
+
+/* Animacja //////////////////////////////////////////////////////*/
+.centrum {
+    width:100%;
+    height:50vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+
+.char{
+    font-size: 20px;
+    height: 40px;
+    animation: an 1s ease-out 1 both;
+    display: inline-block;
+}
+
+@keyframes an{
+    from{
+        opacity: 0;
+        transform: perspective(500px) translate3d(-35px, -40px, -150px) rotate3d(1, -1, 0, 35deg);
+    }
+    to{
+        opacity: 1;
+        transform: perspective(500px) translate3d(0, 0, 0);
+    }
+}
+
+/*////////////////////////////////////////////////////////////////*/
+.krotonas {
+    color: rgb(77, 74, 74);
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:22px;
+    Text-align:center;
+    position: relative;
+    animation:opa;
+    animation-duration: 2.5s;
+}
+@keyframes opa {
+    0%{opacity:0;}
+    100%{opacity:1;}
+}
+
+.line {
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:110px;
+    color:gray;
+    height:5px;
+    border-bottom:2px solid rgba(136, 128, 128, 0.4);
+}
+/* aktualizacje */
+
+.ak {
+    margin-top:100px;
+    color:rgb(93, 177, 226);
+    text-shadow: 1px 1px 2px black;
+    font-family: 'Charm', cursive;
+}
+
+.aktu {
+    margin-top:50px;
+    color:black;
+}
+.boxAktu {
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+    height:200px;
+    border:1px solid rgb(179, 177, 177);
+    box-shadow: inset 1px 1px 3px 2px rgb(82, 170, 170);
+    border-radius:5px;
+    color:black;
+    background:rgb(238, 235, 235);
+    margin-bottom: 50px;
+}
+.ramkaAktu {
+    position: absolute;
+    
+    height:150px;
+}
+.imgAktu{
+    
+    padding:9px;
+    height:140px;
+    border-radius:10px;
+    width:25%;
+    margin-left:2%;
+    margin-right:5%;
+    margin-top:5%;
+    margin-bottom:5%;
+    float:left;
+   
+
+}
+.tematAktu {
+    margin-top:16px;
+    
+    text-align:left;
+    font-size:20px;
+    font-weight: 600;
+    color:rgb(94, 94, 206);
+
+}
+.dataAktu {
+    margin-top:-15px;
+    Text-align:left;
+    color:rgb(139, 130, 130);
+    text-indent:1em;
+
+}
+
+
+.opisAktu {
+    font-weight:400;
+    color:rgb(47, 46, 46);
+}
+.czytW {
+   
+    padding-left:10px;
+    color:rgb(94, 94, 206);
+}
+.czytW:hover {
+    color:rgb(179, 167, 167);
+}
+
+/*Zdjęcia */
+.o0 {
+    background: url("img/aktu0.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+.o1 {
+    background: url("img/aktu1.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+.o2 {
+    background: url("img/aktu2.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+
+/* kontakt */
+.kontakt {
+    width:30%;
+    margin-top:100px;
+    margin-left:auto;
+    margin-right:auto;
+    height:200px;
+    border-radius:10px;
+    border:2px double black;
+    background-image: radial-gradient(circle, rgb(89, 139, 195), rgb(27, 54, 105) );
+    margin-bottom:100px;
+    transition-property: background, width, height;
+    transition-duration: 0.5s;
+    
+}
+.kontakt:hover {
+    background-image: radial-gradient(circle, rgb(27, 54, 105), rgb(89, 139, 195) );
+    width:32%;
+    height:220px;
+
+}
+.zaint {
+    padding-top:2px;
+    text-shadow:1px 1px 3px black;
+    color:white;
+
+}
+.klikKontakt {
+    width: 180px;
+    height:40px;
+    background:rgb(46, 36, 36);
+    border: 1px solid black;
+    color:white;
+    Text-shadow:1px 1px 2px black;
+    border-radius:5px;
+    font-size:25px;
+    font-weight:600;
+    margin-top:20px;
+    
+    
+}
+.klikKontakt:hover {
+    color: indigo;
+    Background:white;
+    Text-shadow:0px 0px 0px;
+    font-size:30px;
+    height:45px;
+    transition: 0.5s all ease-in-out;
+}
+
+
+
+footer {
+    background-color: rgb(52, 113, 192);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    z-index:1000;
+}
+#clock {
+    font-size:20px;
+    color:rgb(98, 98, 204);
+    font-weight:300;
+    padding-top:130px;
+}
+.powitanie {
+    text-shadow:1px 1px 1px black;
+    color:rgb(93, 177, 226);
+    margin-top:50px;
+}
+
+.start1 {
+    position: absolute;
+    width:100%;
+    height:2800px;
+    background:black;
+    z-index:10000;
+    animation:tak;
+    animation-duration: 4s;
+    animation-delay: 6.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes tak {
+    0% {top:0px}
+    50%{top:-2000px; }
+    100%{top:-10000px};
+}
+.kolo {
+    height:400px;
+    width:400px;
+    background:red;
+    border-radius:0%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10%;
+    animation: zakrec;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+@keyframes zakrec {
+    0%{bottom:2000px;}
+    10%{ background:red}
+    20%{}
+    30%{border-radius:50%;}
+    50%{border-radius:50%;}
+    70%{border-radius:50%;}
+    90%{border-radius:50%;}
+    100%{border-radius:50%; bottom:0;background:rgb(37, 155, 37);}
+}
+.oko {
+    width:100px;
+    height:100px;
+    background:white;
+    border-radius:50%;
+    float:left;
+    margin-left:50px;
+    animation:rusza;
+    animation-duration: 3.5s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes rusza{
+    0%{}
+    30%{margin-left:50px;}
+    45%{margin-left:100px;}
+    70%{ margin-top:20px;}
+    100%{margin-left:60px;margin-top:50px;}
+}
+
+.teczowka {
+    width:40%;
+    height:30%;
+    background:black;
+    margin-left:10%;
+    margin-right:60%;
+    margin-top:20px;
+    border-radius:40%;
+    position: relative;
+    animation:przewraca;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    
+}
+@keyframes przewraca {
+    0%{}
+    30%{margin-left:50%;}
+    
+    80%{margin-left:10%; margin-top:20px;}
+    100%{margin-left:22%; margin-top:30px;}
+}
+.usmiech {
+   
+    width:50%;
+    height:30%;
+    border-radius:90%;
+    background:white;
+    margin-left:auto;
+    margin-right:auto;
+    position: relative;
+    animation:zniz;
+    animation-delay: 3s;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    margin-top:20px
+}
+@keyframes zniz {
+    0%{}
+    100%{margin-top:30px}
+}
+.firma {
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    font-size:100px;
+    color:rgb(34, 199, 19);
+    text-shadow:5px 10px 20px gray;
+    width:auto;
+    font-weight:400;
+    letter-spacing:2px;
+    position: relative;
+    margin-top:50px;
+    animation-name:napis;
+    animation-delay: 5s;
+    animation-duration:3s;
+    animation-fill-mode: forwards;
+    opacity:0;
+}
+@keyframes napis {
+    0%{opacity:0;}
+    100%{opacity:1;}
+}
+
+
+

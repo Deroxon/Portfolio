@@ -1,0 +1,183 @@
+body
+{
+    background-image: url(https://i.pinimg.com/originals/4f/6d/05/4f6d052bb1b26150115888ea06d4c106.jpg);
+    color:white;
+    font-size:20px;
+}
+.container
+{
+    width: 100%;
+    height: 2000px;
+    position:relative;
+    
+}
+footer
+{
+    text-align: center;
+    color:white;
+    font-size:13px;
+    margin-top:200px;
+    
+}
+h1
+{
+    text-align:center;
+    font-size: 55px;
+    font-weight: 800;
+    color:white;
+    
+}
+h2
+{
+    text-align: center;
+    padding:60px;
+    color:white;
+
+}
+
+nav
+{
+    font-size:20px;
+    height:100%;
+    padding-top: 5px;
+}
+
+.dropdown-menu a:hover
+{
+ background-color: lightgray;
+}
+.krótki .tekst p
+{
+    font-size: 40px;
+    color:white;
+}
+.krótki .tekst h4
+{
+    font-size: 50px;
+    color:white;
+    text-align:center;
+    font-weight:550;
+}
+.krótki figure
+{
+    margin-bottom:100px;
+    margin-top:60px;
+
+}
+.krótki .tekst
+{
+    padding-top:50px;
+}
+.obraz
+{
+    text-align:center;
+}
+.obraz img
+{
+    width: 100%;
+	height: 500px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+footer
+{
+    text-align: center;
+    font-size:24px;
+    color:white;
+}
+.tekst
+{
+    text-align:center;
+    
+    
+}
+
+.obrazek img {
+    width:100%;
+    width: 300px;
+    height:350px;
+    opacity: 0.8;
+}
+.obrazek img:hover {
+    opacity: 1;
+    width:310px;
+}
+
+
+.Ptekst {
+    color:white;
+    font-size:40px;
+    font-weight:450;
+
+    text-align:center;
+    margin-top:40px;
+    margin-bottom:30px;
+}
+
+
+.pisarz figcaption {
+    text-align:center;
+    color:white;
+}
+
+.pisarz img
+{
+    width: 400px;
+    height:450px;
+   float:left;
+    margin-top:30px;
+    margin-right:15px;
+}
+.pisarz p {
+    
+   color:white;
+   font-size:23px;
+   margin-top:50px;
+   
+}
+.pisarz {
+    margin-top:100px;
+}
+
+.Ktekst {
+    text-align:center;
+    font-size:40px;
+    font-weight:400;
+    color:white;
+    margin-top: 100px;
+}
+#zegar {
+    text-align: right;
+    font-size:25px;
+    color:rgb(228, 143, 143);
+}
+
+.pytanie {
+    width:100%;
+    height:70px;
+    border: 3px dotted gray;
+    font-size:20px;
+    color:white;
+    font-weight:600;
+    transition: all 0.7s ease-in;
+    overflow-wrap: break-word;
+}
+.pytanie button {
+    background: black;
+    border: 2px solid darkgreen;
+    color:white;
+    
+}
+.pytanie button:hover {
+    background: green;
+}
+.pytanie .odpowiedz {
+    visibility: hidden;
+    font-size:20px;
+    color:white;
+    margin-top:10px;
+    font-weight:300;
+    transition-delay: 0.5s;
+
+}
+
